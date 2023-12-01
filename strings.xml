@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Avengers</string>
+    <string name="mob_num">Enter Mobile NUmber</string>
+    <string name="pwd">Enter Password</string>
+    <string name="log_in">Log In</string>
+    <string name="frgt_pwd">Forgot Password</string>
+    <string name="reg">Register Yourself</string>
+    <string name="preference_file_name">Avengers Preferences</string>
+    <string name="left_blank">This is intentionally left blank for you to make :)</string>
+    <string name="log_out">Log out</string>
+    <string name="logging_out">Log Out</string>
+
+</resources>

@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".AvengersActivity">
+
+            <ImageView
+                android:id="@+id/imgandroid"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/tony" />
+
+            <TextView
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tony Stark"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imgandroid"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/txtemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tonystark@gmail.com"
+                android:textSize="18sp"
+                android:layout_toRightOf="@+id/imgandroid"
+                android:layout_below="@+id/txtname"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtphn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 7894160783"
+                android:layout_toRightOf="@+id/imgandroid"
+                android:layout_below="@+id/txtemail"
+                android:textSize="18sp"
+                android:layout_marginTop="15sp"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".AvengersActivity">
+
+            <ImageView
+                android:id="@+id/imghero2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/hero2"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtname2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Natasha Romanoff"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imghero2"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/txtemail2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="natasharomanoff@gmail.com"
+                android:textSize="18sp"
+                android:layout_toRightOf="@+id/imghero2"
+                android:layout_below="@+id/txtname2"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtphn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 7735768494"
+                android:layout_toRightOf="@+id/imghero2"
+                android:layout_below="@+id/txtemail2"
+                android:textSize="18sp"
+                android:layout_marginTop="15sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".AvengersActivity">
+
+            <ImageView
+                android:id="@+id/imghero3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/hero3"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtname3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bruce Banner"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imghero3"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/txtemail3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="brucebanner@gmail.com"
+                android:textSize="18sp"
+                android:layout_toRightOf="@+id/imghero3"
+                android:layout_below="@+id/txtname3"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtphn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 9090678910"
+                android:layout_toRightOf="@+id/imghero3"
+                android:layout_below="@+id/txtemail3"
+                android:textSize="18sp"
+                android:layout_marginTop="15sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".AvengersActivity">
+
+            <ImageView
+                android:id="@+id/imghero4"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/hero4" />
+
+            <TextView
+                android:id="@+id/txtname4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@id/imghero4"
+                android:text="Carol Danvers"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtemail4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtname4"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@+id/imghero4"
+                android:text="caroldanvers@gmail.com"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtphn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtemail4"
+                android:layout_marginTop="15sp"
+                android:layout_toRightOf="@+id/imghero4"
+                android:text="+91 7735768494"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".AvengersActivity">
+
+            <ImageView
+                android:id="@+id/imghero5"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/hero5"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtname5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Steve Rogers"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imghero5"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/txtemail5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="steverogers@gmail.com"
+                android:textSize="18sp"
+                android:layout_toRightOf="@+id/imghero5"
+                android:layout_below="@+id/txtname5"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtphn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 7896543415"
+                android:layout_toRightOf="@+id/imghero5"
+                android:layout_below="@+id/txtemail5"
+                android:textSize="18sp"
+                android:layout_marginTop="15sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".AvengersActivity">
+
+            <ImageView
+                android:id="@+id/imghero6"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/hero6"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtname6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clint Barton"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imghero6"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/txtemail6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="clintbarton@gmail.com"
+                android:textSize="18sp"
+                android:layout_toRightOf="@+id/imghero6"
+                android:layout_below="@+id/txtname6"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtphn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 5678934562"
+                android:layout_toRightOf="@+id/imghero6"
+                android:layout_below="@+id/txtemail6"
+                android:textSize="18sp"
+                android:layout_marginTop="15sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".AvengersActivity">
+
+            <ImageView
+                android:id="@+id/imghero7"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/hero7"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtname7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Karen Gillan"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imghero7"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/txtemail7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="karengillan@gmail.com"
+                android:textSize="18sp"
+                android:layout_toRightOf="@+id/imghero7"
+                android:layout_below="@+id/txtname7"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtphn7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 6453781028"
+                android:layout_toRightOf="@+id/imghero7"
+                android:layout_below="@+id/txtemail7"
+                android:textSize="18sp"
+                android:layout_marginTop="15sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".AvengersActivity">
+
+            <ImageView
+                android:id="@+id/imghero8"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/hero8"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtname8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Danai Gurira"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imghero8"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/txtemail8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="daniagurira@gmail.com"
+                android:textSize="18sp"
+                android:layout_toRightOf="@+id/imghero8"
+                android:layout_below="@+id/txtname8"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtphn8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 9454581028"
+                android:layout_toRightOf="@+id/imghero8"
+                android:layout_below="@+id/txtemail8"
+                android:textSize="18sp"
+                android:layout_marginTop="15sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".AvengersActivity">
+
+            <ImageView
+                android:id="@+id/imghero9"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/hero9"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtname9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chris Hemsworth"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imghero9"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/txtemail9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="chirshemsworth@gmail.com"
+                android:textSize="18sp"
+                android:layout_toRightOf="@+id/imghero9"
+                android:layout_below="@+id/txtname9"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtphn9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 5463781028"
+                android:layout_toRightOf="@+id/imghero9"
+                android:layout_below="@+id/txtemail9"
+                android:textSize="18sp"
+                android:layout_marginTop="15sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".AvengersActivity">
+
+            <ImageView
+                android:id="@+id/imghero10"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/hero10"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtname10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don Cheadle"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imghero10"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/txtemail10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="doncheadle@gmail.com"
+                android:textSize="18sp"
+                android:layout_toRightOf="@+id/imghero10"
+                android:layout_below="@+id/txtname10"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtphn10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 1234581028"
+                android:layout_toRightOf="@+id/imghero10"
+                android:layout_below="@+id/txtemail10"
+                android:textSize="18sp"
+                android:layout_marginTop="15sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".AvengersActivity">
+
+            <ImageView
+                android:id="@+id/imghero11"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/hero11"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtname11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gwyneth Paltrow"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imghero11"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/txtemail11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="gwynethpaltro@gmail.com"
+                android:textSize="18sp"
+                android:layout_toRightOf="@+id/imghero11"
+                android:layout_below="@+id/txtname11"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtphn11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 9556695431"
+                android:layout_toRightOf="@+id/imghero11"
+                android:layout_below="@+id/txtemail11"
+                android:textSize="18sp"
+                android:layout_marginTop="15sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".AvengersActivity">
+
+            <ImageView
+                android:id="@+id/imghero12"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/hero12"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtname12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tessa Thompson"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imghero12"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/txtemail12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tessathompson@gmail.com"
+                android:textSize="18sp"
+                android:layout_toRightOf="@+id/imghero12"
+                android:layout_below="@+id/txtname12"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtphn12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 3425671028"
+                android:layout_toRightOf="@+id/imghero12"
+                android:layout_below="@+id/txtemail12"
+                android:textSize="18sp"
+                android:layout_marginTop="15sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".AvengersActivity">
+
+            <ImageView
+                android:id="@+id/imghero13"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/hero13"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtname13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jon Favreau"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imghero13"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/txtemail13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="jonfavreau@gmail.com"
+                android:textSize="18sp"
+                android:layout_toRightOf="@+id/imghero13"
+                android:layout_below="@+id/txtname13"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtphn13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 7456389021"
+                android:layout_toRightOf="@+id/imghero13"
+                android:layout_below="@+id/txtemail13"
+                android:textSize="18sp"
+                android:layout_marginTop="15sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".AvengersActivity">
+
+            <ImageView
+                android:id="@+id/imghero14"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/hero14"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtname14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bradley Cooper"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imghero14"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/txtemail14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bradlycooper@gmail.com"
+                android:textSize="18sp"
+                android:layout_toRightOf="@+id/imghero14"
+                android:layout_below="@+id/txtname14"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtphn14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 1235467789"
+                android:layout_toRightOf="@+id/imghero14"
+                android:layout_below="@+id/txtemail14"
+                android:textSize="18sp"
+                android:layout_marginTop="15sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".AvengersActivity">
+
+            <ImageView
+                android:id="@+id/imghero15"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/hero15"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtname15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Benedict Wong"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/imghero15"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/txtemail15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="benedictwong@gmail.com"
+                android:textSize="18sp"
+                android:layout_toRightOf="@+id/imghero15"
+                android:layout_below="@+id/txtname15"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtphn15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 8877990066"
+                android:layout_toRightOf="@+id/imghero15"
+                android:layout_below="@+id/txtemail15"
+                android:textSize="18sp"
+                android:layout_marginTop="15sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnlogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/logging_out"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:padding="6dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_below="@+id/txtphn15"
+                android:backgroundTint="#780B0B"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
